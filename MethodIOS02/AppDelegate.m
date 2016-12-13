@@ -30,6 +30,8 @@
     [ParentClass whoAreYou];
     NSLog(@"%@", [hello encapsulationString]);          //ИНКАПСУЛЯЦИЯ
 
+    NSLog(@"test");
+    
     return YES;
     
 }
