@@ -10,16 +10,16 @@
 
 @implementation ParentClass
 
-- (void)helloWorld{
+- (void)helloWorld {
     NSLog(@"Hello World");
 }
 
 // параметр котороый принимает параметр
-- (void)myFirstProgramm:(NSString *)string{
+- (void)myFirstProgramm:(NSString *)string {
     NSLog(@"%@", string);
 }
 
-- (void)say:(NSString *)stringOne and:(NSString *)stringTwo{
+- (void)say:(NSString *)stringOne and:(NSString *)stringTwo {
     NSLog(@"%@, %@",stringOne, stringTwo);
 }
 
@@ -27,11 +27,11 @@
 //    NSLog(@"%@, %@, %@, %@", callOne, callTwo, callThree, callFour);
 //}
 
-- (NSString *)lol{
+- (NSString *)lol {
     return @"say anithing";
 }
 
-+ (void)whoAreYou{
++ (void)whoAreYou {
     NSLog(@"Luke im you FATHRT");
 }
 
@@ -39,11 +39,11 @@
 // прагма марки используют для разделения кода
 #pragma mark - Encapsulation
 
-- (NSString *)encapsulation{
+- (NSString *)encapsulation {
     return [NSString stringWithFormat:@"ИНКАПСУЛЯЦИЯ"];
 }
 
-- (NSString *)encapsulationString{
+- (NSString *)encapsulationString {
     NSString *string = [self encapsulation];
     return string;
 }
