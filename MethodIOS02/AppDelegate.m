@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ParentClass.h" // импорт хедера
+#import "Child.h"
 
 @interface AppDelegate ()
 

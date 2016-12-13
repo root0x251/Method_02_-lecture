@@ -32,17 +32,16 @@
 }
 
 + (void)whoAreYou {
-    NSLog(@"Luke im you FATHRT");
+    NSLog(@"Luke im you FATHeRT");
 }
 
-
-// прагма марки используют для разделения кода
+        // прагма марки используют для разделения кода
 #pragma mark - Encapsulation
 
 - (NSString *)encapsulation {
     return [NSString stringWithFormat:@"ИНКАПСУЛЯЦИЯ"];
 }
-
+        // переопределяем у класса Child.m
 - (NSString *)encapsulationString {
     NSString *string = [self encapsulation];
     return string;
