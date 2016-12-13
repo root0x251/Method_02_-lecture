@@ -10,11 +10,11 @@
 
 @interface ParentClass : NSObject
 
--(void) helloWorld;
--(void) myFirstProgramm: (NSString*) string;
--(void) say: (NSString*) stringOne and: (NSString*) stringTwo;
--(NSString*) lol;
-+(void) whoAreYou;
--(NSString*) encapsulationString; //ИНКАПСУЛЯЦИЯ
+- (void)helloWorld;
+- (void)myFirstProgramm:(NSString *)string;
+- (void)say:(NSString *)stringOne and:(NSString *)stringTwo;
+- (NSString *)lol;
++ (void)whoAreYou;
+- (NSString *)encapsulationString; // ИНКАПСУЛЯЦИЯ
 
 @end

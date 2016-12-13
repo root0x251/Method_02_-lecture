@@ -10,39 +10,42 @@
 
 @implementation ParentClass
 
-
--(void) helloWorld{
+- (void)helloWorld{
     NSLog(@"Hello World");
 }
-        /* параметр котороый принимает параметр */
--(void) myFirstProgramm: (NSString*) string{
+
+// параметр котороый принимает параметр
+- (void)myFirstProgramm:(NSString *)string{
     NSLog(@"%@", string);
 }
 
--(void) say: (NSString*) stringOne and: (NSString*) stringTwo{
-    NSLog(@"%@, %@", stringOne, stringTwo);
+- (void)say:(NSString *)stringOne and:(NSString *)stringTwo{
+    NSLog(@"%@, %@",stringOne, stringTwo);
 }
-/*
--(void) sentence: (NSString*) callOne and: (NSString*) callTwo and: (NSString*) callThree andAfterThat: (NSString*) callFour{
-    NSLog(@"%@, %@, %@, %@", callOne, callTwo, callThree, callFour);
-}
-*/
--(NSString*) lol{
+
+//- (void)sentence:(NSString *)callOne and:(NSString *)callTwo and:(NSString *)callThree andAfterThat:(NSString *)callFour{
+//    NSLog(@"%@, %@, %@, %@", callOne, callTwo, callThree, callFour);
+//}
+
+- (NSString *)lol{
     return @"say anithing";
 }
 
-+(void) whoAreYou{
++ (void)whoAreYou{
     NSLog(@"Luke im you FATHRT");
 }
 
-            /******* ИНКАПСУЛЯЦИЯ *******/
--(NSString*) encapsulation{
+
+// прагма марки используют для разделения кода
+#pragma mark - Encapsulation
+
+- (NSString *)encapsulation{
     return [NSString stringWithFormat:@"ИНКАПСУЛЯЦИЯ"];
 }
 
--(NSString*) encapsulationString{
-    NSString* string = [self encapsulation];
+- (NSString *)encapsulationString{
+    NSString *string = [self encapsulation];
     return string;
 }
-            /******* end ИНКАПСУЛЯЦИЯ *******/
+
 @end
