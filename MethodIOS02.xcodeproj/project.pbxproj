@@ -15,6 +15,7 @@
 		F90BB6B61DFFEDA6006B369D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90BB6B41DFFEDA6006B369D /* LaunchScreen.storyboard */; };
 		F90BB6C11DFFEDA6006B369D /* MethodIOS02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90BB6C01DFFEDA6006B369D /* MethodIOS02Tests.m */; };
 		F90BB6CC1DFFEDA6006B369D /* MethodIOS02UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90BB6CB1DFFEDA6006B369D /* MethodIOS02UITests.m */; };
+		F90BB6DB1DFFF3C9006B369D /* ParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F90BB6DA1DFFF3C9006B369D /* ParentClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F90BB6C71DFFEDA6006B369D /* MethodIOS02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodIOS02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90BB6CB1DFFEDA6006B369D /* MethodIOS02UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodIOS02UITests.m; sourceTree = "<group>"; };
 		F90BB6CD1DFFEDA6006B369D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90BB6D91DFFF3C9006B369D /* ParentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentClass.h; sourceTree = "<group>"; };
+		F90BB6DA1DFFF3C9006B369D /* ParentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F90BB6A51DFFEDA6006B369D /* MethodIOS02 */ = {
 			isa = PBXGroup;
 			children = (
+				F90BB6D91DFFF3C9006B369D /* ParentClass.h */,
+				F90BB6DA1DFFF3C9006B369D /* ParentClass.m */,
 				F90BB6A91DFFEDA6006B369D /* AppDelegate.h */,
 				F90BB6AA1DFFEDA6006B369D /* AppDelegate.m */,
 				F90BB6AC1DFFEDA6006B369D /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90BB6DB1DFFF3C9006B369D /* ParentClass.m in Sources */,
 				F90BB6AE1DFFEDA6006B369D /* ViewController.m in Sources */,
 				F90BB6AB1DFFEDA6006B369D /* AppDelegate.m in Sources */,
 				F90BB6A81DFFEDA6006B369D /* main.m in Sources */,

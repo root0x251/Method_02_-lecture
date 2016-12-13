@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ParentClass.h" //импорт хедера
 
 @interface AppDelegate ()
 
@@ -17,7 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ParentClass* hello = [[ParentClass alloc] init];
+    //* hello - указатель на объкт
+    //alloc - выделение памти для объекта
+    //init - инициализация
+    [hello helloWorld];     //выхов метода класса ParentClass
+    [hello myFirstProgramm:@"Hello, World!!!"];
+    [hello say:@"Hello" and:@"World"];
+    NSLog(@"%@", [hello lol]);
+    [ParentClass whoAreYou];
+    NSLog(@"%@", [hello encapsulationString]);          //ИНКАПСУЛЯЦИЯ
+
     return YES;
+    
 }
 
 
